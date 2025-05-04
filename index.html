@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rex y Joy Pets</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Rex y Joy Pets</h1>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> Acerca de</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contacto</a></li>
+                <li><a href="#appointments"><i class="fas fa-calendar-check"></i> Citas</a></li>
+                <li><a href="#products"><i class="fas fa-bone"></i> Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="home">
+            <h2>Inicio</h2>
+            <p>Bienvenido a nuestra veterinaria Rex y Joy Pets, donde tus mascotas son nuestra prioridad.</p>
+            <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg" alt="Perros y gatos felices" class="home-image">
+        </section>
+
+        
+        
+        <section id="about">
+
+<p>En Rex y Joy Pets ofrecemos servicios de baño y bienestar para tus mascotas, así como una variedad de productos especializados para perros y gatos, desde alimentos hasta juguetes y accesorios.</p>
+
+            <h2>Acerca de</h2>
+            <p>Contamos con años de experiencia en el cuidado, baño y atención de animales domésticos.</p>
+            
+<img src="images/duenos.jpg" alt="Dueños de la veterinaria" class="about-image">
+<p class="about-caption">Nuestros fundadores: Rex y Joy, quienes inspiran cada día el cuidado y amor por las mascotas. 🐾💜</p>
+
+<h3>Servicios de baño y bienestar</h3>
+<p>Ofrecemos baños relajantes, limpieza de oídos, corte de uñas y cepillado para perros y gatos, con productos especializados y personal capacitado.</p>
+
+<h3>Venta de productos para mascotas</h3>
+<p>Contamos con una variedad de productos especializados para perros y gatos, como alimentos, juguetes, collares, cepillos y más.</p>
+
+        </section>
+<section id="appointments">
+            <h2>Agendar Cita</h2>
+            <form id="appointmentForm">
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="pet">Mascota:</label><br>
+                <input type="text" id="pet" name="pet"><br>
+
+                <label for="date">Fecha:</label><br>
+                <input type="date" id="date" name="date"><br>
+
+                <label for="phone">Celular:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="successDialog" title="¡Reserva exitosa!" style="display:none;">Tu cita ha sido registrada correctamente.</div>
+        </section>
+<section id="products" style="display: none;">
+            <h2>Productos</h2>
+            <div class="product-gallery">
+                <div class="product">
+                    <img src="images/juguete.jpg" alt="Juguete para perro">
+                    <p>Juguete para perro</p>
+                </div>
+                <div class="product">
+                    <img src="images/comida.jpg" alt="Comida para perros">
+                    <p>Comida balanceada</p>
+                </div>
+                <div class="product">
+                    <img src="images/cepillo.jpg" alt="Cepillo para perros">
+                    <p>Cepillo para aseo</p>
+                </div>
+                <div class="product">
+                    <img src="images/collar.jpg" alt="Collar para perro">
+                    <p>Collar ajustable</p>
+                </div>
+            </div>
+        </section>
+<section id="contact">
+            <h2>Contacto</h2>
+            <p>Teléfono: 123-456-7890</p>
+            <p>Email: contacto@rexyjoypets.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Rex y Joy Pets. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
